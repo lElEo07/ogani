@@ -1,0 +1,324 @@
+ .cairo-uniquifier {
+     font-family: "Cairo", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: weight;
+     font-style: normal;
+     font-variation-settings:
+         "slnt" 0;
+ }
+
+ * {
+     margin: 0;
+     box-sizing: border-box;
+     font-family: "cairo";
+ }
+
+ header {
+     background-color: #f5f5f5;
+ }
+
+ #header {
+     max-width: 960px;
+     display: flex;
+     justify-content: center;
+     gap: 7px;
+     padding: 7px;
+     margin: auto;
+ }
+
+
+ #main div {
+     border: solid 1px;
+ }
+
+ #header div {
+     display: flex;
+     align-items: center;
+     gap: 2%;
+ }
+
+ #header svg {
+     width: 15px;
+     aspect-ratio: 1;
+ }
+
+ #header .barra {
+     border-left: 1px solid #bdbdbd;
+ }
+
+ #header #redes-sociais {
+     gap: 20px;
+     margin-left: auto;
+ }
+
+ #idioma {
+     margin: 5px;
+ }
+
+ #main {
+     display: grid;
+     grid-template-columns: 1fr 1.5fr 1.3fr 1.3fr 1.4fr 1fr;
+     grid-template-rows: 80px 80px 431px 271px;
+ }
+
+
+ #logo {
+     grid-column: 2;
+ }
+
+ #menu {
+     grid-column: 2;
+     grid-row: 2/4;
+ }
+
+ #busca {
+     grid-column: 3/6;
+     grid-row: 2;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ #nav {
+     grid-column: 3/6;
+     display: flex;
+ }
+
+ #nav div {
+     display: flex;
+     gap: 10px;
+     align-items: center;
+ }
+
+ #nav a {
+     margin-left: 20px;
+ }
+
+ #icones {
+     margin-left: auto;
+     margin-right: 20px;
+ }
+
+ #preco {
+     font-weight: 800;
+ }
+
+ #banner {
+     grid-column: 3/6;
+     grid-row: 3;
+     background-image: url(banner.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+
+ #prod1 {
+     background-image: url(cat-2.jpg);
+     grid-row: 4;
+     grid-column: 2;
+     margin-top: 40px;
+     background-position: center;
+     margin-right: 14%;
+     display: flex;
+     align-items: end;
+     justify-content: center;
+ }
+
+ #prod2 {
+     grid-row: 4;
+     grid-column: 3;
+     background-image: url(cat-3.jpg);
+     background-position: center;
+     margin-top: 40px;
+     margin-right: 8%;
+     display: flex;
+     align-items: end;
+     justify-content: center;
+ }
+
+ #prod3 {
+     grid-row: 4;
+     grid-column: 4;
+     background-image: url(cat-4.jpg);
+     background-position: center;
+     margin-left: 8%;
+     margin-top: 40px;
+     display: flex;
+     align-items: end;
+     justify-content: center;
+ }
+
+ #prod4 {
+     grid-row: 4;
+     grid-column: 5;
+     background-image: url(feature-1.jpg);
+     background-position: center;
+     margin-left: 14%;
+     margin-top: 40px;
+     display: flex;
+     align-items: end;
+     justify-content: center;
+ }
+
+ #seta-esquerda {
+     grid-row: 4;
+     grid-column: 1;
+     margin-top: 40px;
+     display: flex;
+     justify-content: end;
+     align-items: center;
+     padding-right: 15px;
+ }
+
+ #seta-direita {
+     grid-row: 4;
+     grid-column: 6;
+     margin-top: 40px;
+     display: flex;
+     align-items: center;
+     padding-left: 15px;
+ }
+
+
+ #nav svg {
+     width: 15px;
+ }
+
+ .btn-search {
+
+     text-align: center;
+     background-color: #7fad39;
+     width: 80px;
+
+     color: white;
+     text-decoration: none;
+     padding: 8px;
+ }
+
+ .txtwhat {
+     height: 40px;
+
+ }
+
+ #alinhamento {
+     display: flex;
+     flex-direction: column;
+ }
+
+
+
+ #menu button {
+     background-color: #7fad39;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     padding: 10px;
+     width: 100%;
+     gap: 20px;
+     height: 79px;
+
+ }
+
+ #alimentos div {
+     padding: 3.5px;
+     text-align: center;
+ }
+
+ #bordinha-busca {
+     display: flex;
+     gap: 100px;
+ }
+
+ #circulo-teleco {
+     border-radius: 100%;
+     padding: 15px;
+     background-color: #faf3f3;
+ }
+
+ .all-categories {
+     display: flex;
+     align-items: center;
+ }
+
+ #fruit-fresh {
+     color: #7fad39;
+     height: 26px;
+ }
+
+ #vegetable {
+     color: #252525;
+     width: 200px;
+ }
+
+ #free-pickup {
+     color: #6f6f6f;
+     height: 26px;
+
+ }
+
+ #shop-now {
+     background-color: #7fad39;
+     color: white;
+     width: 140px;
+     height: 34px;
+     text-align: center;
+ }
+
+ #banner div {
+     display: flex;
+     flex-direction: column;
+     margin-left: 75px;
+     padding-top: 10%;
+ }
+
+ #featured-product {
+     grid-row: 5;
+     grid-column: 2;
+
+ }
+
+ #titulo-featured {
+     display: flex;
+     justify-content: center;
+     padding-top: 80px;
+
+
+ }
+
+ #caixa-vazia {
+     background-color: #7fad39;
+     height: 5px;
+     width: 80px;
+     margin-inline: 915px;
+     margin-bottom: 20px;
+
+ }
+
+ #all-oranges {
+     display: flex;
+     justify-content: center;
+     gap: 40px;
+ }
+
+ #segundaC-vazia {
+     background-color: #7fad39;
+     height: 3px;
+     width: 67px;
+     margin-inline: 1131px;
+ }
+
+ #prod-banana{
+    grid-row: ;
+    grid-column:;
+    background-image: url(feature-2.jpg);
+    background-position: center;
+    display: flex;
+ }
+ #prod-melancia{
+    grid-row: 3;
+    grid-column: 6;
+    background-image: url(feature-4.jpg);
+    background-position: center;
+    display: flex;
+ }
